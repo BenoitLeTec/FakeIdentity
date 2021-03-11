@@ -1,9 +1,92 @@
 {
-  "posts": [
+  "testusers": [
     {
-      "id": 1,
-      "title": "hello"
-    }
+      "SubjectId":"818727",
+      "Username":"alice",
+      "Password":"alice",
+      "ProviderName":null,
+      "ProviderSubjectId":null,
+      "IsActive":true,
+      "Claims":[
+         {
+            "Issuer":"LOCAL AUTHORITY",
+            "OriginalIssuer":"LOCAL AUTHORITY",
+            "Properties":{
+               
+            },
+            "Subject":null,
+            "Type":"name",
+            "Value":"Alice Smith",
+            "ValueType":"http://www.w3.org/2001/XMLSchema#string"
+         },
+         {
+            "Issuer":"LOCAL AUTHORITY",
+            "OriginalIssuer":"LOCAL AUTHORITY",
+            "Properties":{
+               
+            },
+            "Subject":null,
+            "Type":"given_name",
+            "Value":"Alice",
+            "ValueType":"http://www.w3.org/2001/XMLSchema#string"
+         },
+         {
+            "Issuer":"LOCAL AUTHORITY",
+            "OriginalIssuer":"LOCAL AUTHORITY",
+            "Properties":{
+               
+            },
+            "Subject":null,
+            "Type":"family_name",
+            "Value":"Smith",
+            "ValueType":"http://www.w3.org/2001/XMLSchema#string"
+         },
+         {
+            "Issuer":"LOCAL AUTHORITY",
+            "OriginalIssuer":"LOCAL AUTHORITY",
+            "Properties":{
+               
+            },
+            "Subject":null,
+            "Type":"email",
+            "Value":"AliceSmith@email.com",
+            "ValueType":"http://www.w3.org/2001/XMLSchema#string"
+         },
+         {
+            "Issuer":"LOCAL AUTHORITY",
+            "OriginalIssuer":"LOCAL AUTHORITY",
+            "Properties":{
+               
+            },
+            "Subject":null,
+            "Type":"email_verified",
+            "Value":"true",
+            "ValueType":"http://www.w3.org/2001/XMLSchema#boolean"
+         },
+         {
+            "Issuer":"LOCAL AUTHORITY",
+            "OriginalIssuer":"LOCAL AUTHORITY",
+            "Properties":{
+               
+            },
+            "Subject":null,
+            "Type":"website",
+            "Value":"http://alice.com",
+            "ValueType":"http://www.w3.org/2001/XMLSchema#string"
+         },
+         {
+            "Issuer":"LOCAL AUTHORITY",
+            "OriginalIssuer":"LOCAL AUTHORITY",
+            "Properties":{
+               
+            },
+            "Subject":null,
+            "Type":"address",
+            "Value":"{ \u0027street_address\u0027: \u0027One Hacker Way\u0027, \u0027locality\u0027: \u0027Heidelberg\u0027, \u0027postal_code\u0027: 69118, \u0027country\u0027: \u0027Germany\u0027 }",
+            "ValueType":"json"
+         }
+      ]
+   }
   ],
   "profile": {
     "name": "typicode"
