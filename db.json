@@ -7,7 +7,30 @@
       "ProviderName":null,
       "ProviderSubjectId":null,
       "IsActive":true,
-      "Claims":[ ]
+       "Claims":[
+      {
+         "Issuer":"LOCAL AUTHORITY",
+         "OriginalIssuer":"LOCAL AUTHORITY",
+         "Properties":{
+            
+         },
+         "Subject":null,
+         "Type":"name",
+         "Value":"Alice Smith",
+         "ValueType":"http://www.w3.org/2001/XMLSchema#string"
+      },
+      {
+         "Issuer":"LOCAL AUTHORITY",
+         "OriginalIssuer":"LOCAL AUTHORITY",
+         "Properties":{
+            
+         },
+         "Subject":null,
+         "Type":"given_name",
+         "Value":"Alice",
+         "ValueType":"http://www.w3.org/2001/XMLSchema#string"
+      }
+   ]
    },
    {
       "SubjectId":"000001",
