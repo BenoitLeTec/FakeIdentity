@@ -6,7 +6,7 @@
       "Password":"alice",
       "ProviderName":null,
       "ProviderSubjectId":null,
-      "IsActive":true,
+      "IsActive":true
    },
    {
       "SubjectId":"000001",
