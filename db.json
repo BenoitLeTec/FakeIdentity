@@ -7,16 +7,17 @@
       "ProviderName":null,
       "ProviderSubjectId":null,
       "IsActive":true,
-      "Claims":[
-        {
-            "Issuer":"LOCAL AUTHORITY",
-            "OriginalIssuer":"LOCAL AUTHORITY",
-            "Subject":null,
-            "Type":"name",
-            "Value":"Alice Smith",
-            "ValueType":"http://www.w3.org/2001/XMLSchema#string"
-         }
-      ]
+      "Claims":[ ]
+   },
+   {
+      "SubjectId":"000001",
+      "Username":"Benoit",
+      "Password":"benoit",
+      "ProviderName":null,
+      "ProviderSubjectId":null,
+      "IsActive":true,
+      "Claims":[ ]
    }
+    
   ]
 }
