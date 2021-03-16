@@ -1,4 +1,14 @@
 {
+  "CustomerResponseToken" : [
+    {
+      "Token" : "1453",
+      "TokenType" : "546465"
+    },
+    {
+      "Token" : "84651",
+      "TokenType" : "fgdgdg1354"
+    }
+  ],
   "testusers": [
     {
       "SubjectId":"818727",
